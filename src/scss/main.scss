@@ -2,6 +2,8 @@
 @import "./base/reset";
 @import "./base/fontsAutoGen";
 @import "./base/vars";
+@import "./base/base";
+@import "./base/mixins";
 
 /* Blocks*/
 @import "./blocks/*.scss";
