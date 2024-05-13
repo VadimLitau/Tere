@@ -1,31 +1,33 @@
 .header {
-  @include flex_row;
-  align-items: center;
-  justify-content: space-between;
-  background-color: $white;
-  padding: 85px 80px 38px 80px;
+	@include flex_row;
+	align-items: center;
+	justify-content: space-between;
+	background-color: $white;
+	padding: 85px 80px 38px 80px;
+	width: 1440px;
 }
 
 .list {
-  @include flex_row;
-  align-items: center;
-  ul {
-    @include flex_row;
-    li {
-      margin-right: 46px;
-      font-weight: 500;
-      font-size: 17.16px;
-      line-height: 20.82px;
-    }
-  }
+	@include flex_row;
+	align-items: center;
+	ul {
+		@include flex_row;
+		li {
+			margin-right: 46px;
+			font-weight: 500;
+			font-size: 17.16px;
+			line-height: 20.82px;
+			cursor: pointer;
+		}
+	}
 }
 
-button {
-  color: $white;
-  background-color: $light_green;
-  border-radius: 5.95px;
-  padding: 12px 27px 11px 28px;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 26.95px;
+.button_green {
+	color: $white;
+	background-color: $light_green;
+	border-radius: 5.95px;
+	padding: 12px 27px 11px 28px;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 26.95px;
 }

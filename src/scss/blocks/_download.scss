@@ -1,0 +1,30 @@
+.download {
+	@include flex_row;
+	align-items: end;
+	margin-top: 52px;
+	margin-left: -65px;
+	div {
+		margin-right: 55px;
+		h1 {
+			width: 557px;
+			font-weight: 800;
+			font-size: 60.73px;
+			line-height: 65.91px;
+		}
+		p {
+			margin-top: 24px;
+			width: 555px;
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 28px;
+		}
+	}
+}
+
+.buttons_wrap {
+	@include flex_row;
+	margin-top: 72px;
+	span {
+		margin-right: 30px;
+	}
+}

@@ -1,0 +1,16 @@
+.button_black {
+	background-color: $black;
+	color: $white;
+	width: 260px;
+	height: 67px;
+	border-radius: 5px;
+	@include flex_row;
+	align-items: center;
+	justify-content: center;
+	font-weight: 800;
+	font-size: 24.6px;
+
+	img {
+		padding-right: 16.72px;
+	}
+}

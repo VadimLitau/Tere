@@ -1,13 +1,16 @@
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-  box-sizing: border-box;
-  background-color: $bgc_color;
-  color: $black;
-  font-family: $gilroy;
-  text-wrap: balance;
-  margin: 0 auto;
-  width: 1440px;
+	@include flex_column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-color: $bgc_color;
+	color: $black;
+	font-family: $gilroy;
+	text-wrap: balance;
+	width: 1280px;
 }
