@@ -1,0 +1,35 @@
+.enterPhone {
+	background-color: $light_green;
+	border-radius: 10px;
+	@include flex_row;
+	align-items: center;
+	justify-content: start;
+	width: 100%;
+	margin-top: 85.35px;
+
+	p {
+		width: 256px;
+		font-weight: 600;
+		font-size: 24.6px;
+		line-height: 28px;
+		margin: 0 112px 0 72px;
+		padding: 55px 0;
+		color: $white;
+	}
+
+	input {
+		background-color: $white;
+		border-radius: 4.39px;
+		width: 499px;
+		padding: 24px 35px 19px 35px;
+		font-weight: 600;
+		font-size: 20px;
+		margin-right: 11px;
+	}
+
+	input::placeholder {
+		color: $opacity_grey;
+		font-weight: 600;
+		font-size: 20px;
+	}
+}
