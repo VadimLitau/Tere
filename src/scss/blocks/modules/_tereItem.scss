@@ -1,0 +1,47 @@
+.tere_item {
+	width: 290px;
+	display: flex;
+	flex-direction: column;
+}
+.left {
+	align-items: start;
+}
+.right {
+	align-items: end;
+	.subtitle {
+		text-align: right;
+	}
+}
+.number_wrap {
+	background-image: url("../../../img/tere_item_bgi.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 61px;
+	height: 61px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 5px;
+	p {
+		font-weight: 800;
+		font-size: 34.11px;
+		line-height: 37.02px;
+		color: $light-green;
+		// костыль, у шрифта над цифрой появляется какой-то отступ
+		margin-top: -7px;
+	}
+}
+
+.title {
+	font-size: 22px;
+	font-weight: 800;
+	line-height: 50.35px;
+	margin-bottom: 15px;
+}
+
+.subtitle {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 26px;
+	color: $light_grey;
+}
