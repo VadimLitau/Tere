@@ -1,0 +1,28 @@
+.splide {
+	width: 279px;
+	height: 620px;
+}
+.wrap_splide {
+	margin-top: 100px;
+}
+.splide_bgi {
+	width: 400px;
+	height: 400px;
+	background: $light_green;
+	position: absolute;
+	border-radius: 50%;
+	top: 80px;
+	left: -61px;
+}
+.splide__pagination {
+	li {
+		button {
+			background: $light_green;
+			opacity: 0.3;
+		}
+		button.is-active {
+			background: $light_green;
+			opacity: 1;
+		}
+	}
+}
