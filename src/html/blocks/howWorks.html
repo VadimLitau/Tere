@@ -1,0 +1,27 @@
+<section class="how-works">
+	<h2>HOW <span>TERE</span> WORKS</h2>
+	<p class="how-works_text">
+		Download and install the tere app. Enter your phone number and make your
+		user account. when approved you may start driving.
+	</p>
+	<div class="how-works_slider">
+		<div class="left_items">
+			<span>
+				@@loop('modules/tereItem.html','../data/tereItemFirst.json')
+			</span>
+			<span>
+				@@loop('modules/tereItem.html','../data/tereItemThird.json')
+			</span>
+		</div>
+		<div class="slider">@@include('modules/slider.html')</div>
+		<div class="right_items">
+			<span>
+				@@loop('modules/tereItem.html','../data/tereItemSecond.json')
+			</span>
+
+			<span>
+				@@loop('modules/tereItem.html','../data/tereItemFourth.json')
+			</span>
+		</div>
+	</div>
+</section>

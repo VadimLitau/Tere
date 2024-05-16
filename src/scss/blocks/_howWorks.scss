@@ -1,0 +1,41 @@
+.how-works {
+	margin-top: 128px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	h2 {
+		font-size: 46.39px;
+		font-weight: 800;
+		line-height: 50.35px;
+		margin-bottom: 25px;
+	}
+	h2 span {
+		font-size: 46.39px;
+		font-weight: 800;
+		line-height: 50.35px;
+		color: $light-green;
+	}
+	.how-works_text {
+		font-size: 23px;
+		font-weight: 500;
+		line-height: 26px;
+		color: $light_grey;
+		margin-bottom: 83px;
+		width: 620px;
+		text-align: center;
+	}
+}
+
+.how-works_slider {
+	display: flex;
+	flex-direction: row;
+}
+.left_items,
+.right_items {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 560px;
+	padding: 35px 0 25px 0;
+}
