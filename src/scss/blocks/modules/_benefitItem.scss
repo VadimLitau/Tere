@@ -1,0 +1,67 @@
+.wrap {
+	width: 1060px;
+	background-color: $white;
+	border-radius: 10px;
+	padding: 0 110px 0 38px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 56px;
+}
+
+.align_left {
+	align-self: flex-start;
+	margin-left: 65px;
+}
+
+.align_right {
+	align-self: flex-end;
+	margin-right: 70px;
+}
+
+.row-reverse {
+	flex-direction: row-reverse;
+	.benefitItem_image {
+		margin-right: 250px;
+	}
+}
+.benefit_text {
+	// width: 385px;
+	.benefit_title {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		p {
+			font-size: 88px;
+			font-weight: 500;
+			line-height: 118.8px;
+			color: $light_green;
+			margin-right: 39px;
+		}
+
+		h3 {
+			font-size: 33.94px;
+			font-weight: 600;
+			line-height: 32.5px;
+			padding-top: 8px;
+			max-width: 235px;
+		}
+	}
+	p {
+		font-size: 22px;
+		font-weight: 500;
+		line-height: 23px;
+		color: $light_grey;
+	}
+}
+
+.benefitItem_image {
+	margin: 25px 0;
+	img {
+		max-width: 311px;
+		max-height: 256px;
+		margin-left: 79px;
+	}
+}

@@ -1,0 +1,23 @@
+[
+	{
+		"number": "01.",
+		"title": "Flexible working hours",
+		"subtitle": "You can decide when, and how much time you want to drive.",
+		"img": "../../../img/benefitItems/benefitItem.png",
+		"align_class": "align_left"
+	},
+	{
+		"number": "02.",
+		"title": "Earnings",
+		"subtitle": "By driving with tere you can earn more.",
+		"img": "../../../img/benefitItems/benefitItem-1.png",
+		"align_class": "align_right row-reverse"
+	},
+	{
+		"number": "03.",
+		"title": "Customer support 24/7",
+		"subtitle": "Tere is a local service provider and we are proud to support you in your local language. We are proud to be at your service 24/7!",
+		"img": "../../../img/benefitItems/benefitItem-2.png",
+		"align_class": "align_left"
+	}
+]
