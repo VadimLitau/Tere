@@ -1,29 +1,31 @@
 .download {
 	@include flex_row;
-	align-items: end;
-	margin-top: 52px;
+	// margin-top: 54px;
 	margin-left: -65px;
-	div {
-		margin-right: 55px;
+	.download_wrap {
+		margin-top: 66px;
+		margin-right: 52px;
 		h1 {
-			width: 557px;
+			margin-top: 97px;
 			font-weight: 800;
 			font-size: 60.73px;
 			line-height: 65.91px;
 		}
 		p {
 			margin-top: 24px;
-			width: 555px;
+			width: 611px;
 			font-weight: 500;
 			font-size: 24px;
-			line-height: 28px;
+			line-height: 27px;
 		}
 	}
 }
-
+.download_img {
+	margin-top: 53px;
+}
 .buttons_wrap {
 	@include flex_row;
-	margin-top: 72px;
+	margin-top: 76px;
 	span {
 		margin-right: 30px;
 	}

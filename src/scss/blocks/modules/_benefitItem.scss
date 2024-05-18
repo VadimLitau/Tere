@@ -1,5 +1,6 @@
 .wrap {
 	width: 1060px;
+	height: 304px;
 	background-color: $white;
 	border-radius: 10px;
 	padding: 0 110px 0 38px;
@@ -12,12 +13,12 @@
 
 .align_left {
 	align-self: flex-start;
-	margin-left: 65px;
+	margin-left: -81px;
 }
 
 .align_right {
 	align-self: flex-end;
-	margin-right: 70px;
+	margin-right: -72px;
 }
 
 .row-reverse {

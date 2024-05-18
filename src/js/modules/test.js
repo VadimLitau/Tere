@@ -15,6 +15,6 @@ new Splide(".splide", {
 	// autoHeight: true,
 	arrows: false,
 	classes: {
-		pagination: "splide__pagination your-class-pagination",
+		pagination: "splide__pagination",
 	},
 }).mount();

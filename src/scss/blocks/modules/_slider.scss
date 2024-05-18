@@ -1,6 +1,6 @@
 .splide {
 	width: 279px;
-	height: 620px;
+	height: 642px;
 }
 .wrap_splide {
 	margin: 0 100px;
@@ -15,14 +15,19 @@
 	left: -61px;
 }
 .splide__pagination {
+	margin-top: 50px;
 	li {
 		button {
 			background: $light_green;
+			margin-right: 2px;
 			opacity: 0.3;
+			width: 12.77px;
+			height: 12.77px;
 		}
 		button.is-active {
 			background: $light_green;
 			opacity: 1;
+			transform: scale(1);
 		}
 	}
 }

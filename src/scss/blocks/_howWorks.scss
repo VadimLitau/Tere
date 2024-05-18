@@ -8,7 +8,7 @@
 		font-size: 46.39px;
 		font-weight: 800;
 		line-height: 50.35px;
-		margin-bottom: 25px;
+		margin-bottom: 23px;
 	}
 	h2 span {
 		font-size: 46.39px;
@@ -22,7 +22,6 @@
 		line-height: 26px;
 		color: $light_grey;
 		margin-bottom: 83px;
-		width: 620px;
 		text-align: center;
 	}
 }
@@ -38,4 +37,8 @@
 	justify-content: space-between;
 	height: 560px;
 	padding: 35px 0 25px 0;
+}
+
+.how-works_slider div span:nth-child(2) {
+	margin-bottom: 13px;
 }
