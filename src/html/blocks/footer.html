@@ -21,7 +21,7 @@
 				<a href="#" class="list-item_link">021 - 1111 - 2222</a>
 			</li>
 		</ul>
-		<ul class="footer_list">
+		<ul class="footer_list-second">
 			<li class="footer_list-item">
 				<a href="#" class="list-item_link">
 					<h3 class="list-item_title">Be Our Friend</h3>
@@ -40,11 +40,13 @@
 		<div class="footer_btns">
 			<span>
 				@@include('modules/button.html',{ "text": 'DOWNLOAD', "img_src":
-				'../../img/icons/google_play_icons.svg', "id": 'google_play' })
+				'../../img/icons/google_play_icons.svg', "id": 'google_play',
+				"btn_size":"button_small" })
 			</span>
 			<span>
 				@@include('modules/button.html',{ "text": 'DOWNLOAD', "img_src":
-				'../../img/icons/app_store_icons.svg',"id": 'app_store' })
+				'../../img/icons/app_store_icons.svg',"id":
+				'app_store',"btn_size":"button_small" })
 			</span>
 		</div>
 	</div>
