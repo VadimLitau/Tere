@@ -5,6 +5,10 @@
 	background-color: $white;
 	padding: 85px 80px 38px 80px;
 	width: 1440px;
+	@media (max-width: 720px) {
+		padding: 46px 20px 29.65px 20px;
+		width: 360px;
+	}
 }
 
 .list {
@@ -20,6 +24,9 @@
 			cursor: pointer;
 		}
 	}
+	@media (max-width: 720px) {
+		display: none;
+	}
 }
 
 .button_green {
@@ -30,4 +37,17 @@
 	font-weight: 600;
 	font-size: 22px;
 	line-height: 26.95px;
+	@media (max-width: 720px) {
+		display: none;
+	}
+}
+
+@media (max-width: 720px) {
+	.header_logo {
+		width: 93px;
+		height: 26.35px;
+	}
+	.header_mobile_menu_btn {
+		padding-right: 3px;
+	}
 }

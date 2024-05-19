@@ -13,4 +13,7 @@ body {
 	font-family: $gilroy;
 	text-wrap: balance;
 	width: 1280px;
+	@media (max-width: 720px) {
+		width: 360px;
+	}
 }

@@ -1,6 +1,5 @@
 .download {
 	@include flex_row;
-	// margin-top: 54px;
 	margin-left: -65px;
 	.download_wrap {
 		margin-top: 66px;
@@ -10,6 +9,15 @@
 			font-weight: 800;
 			font-size: 60.73px;
 			line-height: 65.91px;
+			@media (max-width: 720px) {
+				margin-top: 31.75px;
+				font-size: 32.9px;
+				line-height: 37.87px;
+				text-align: center;
+			}
+			br:nth-child(1) {
+				display: none;
+			}
 		}
 		p {
 			margin-top: 24px;
@@ -17,16 +25,49 @@
 			font-weight: 500;
 			font-size: 24px;
 			line-height: 27px;
+			@media (max-width: 720px) {
+				margin-top: 24px;
+				font-size: 18px;
+				line-height: 22px;
+				text-align: center;
+				width: 320px;
+			}
 		}
+		@media (max-width: 720px) {
+			width: 320px;
+			margin: 0px;
+		}
+	}
+	@media (max-width: 720px) {
+		flex-direction: column-reverse;
+		margin-left: 0px;
 	}
 }
 .download_img {
 	margin-top: 53px;
+	@media (max-width: 720px) {
+		margin-top: 0px;
+		width: 320px;
+	}
 }
 .buttons_wrap {
 	@include flex_row;
 	margin-top: 76px;
 	span {
 		margin-right: 30px;
+		@media (max-width: 720px) {
+			margin-right: 16px;
+		}
+	}
+	@media (max-width: 720px) {
+		margin-top: 32px;
+		.button_black {
+			font-size: 14px;
+			padding: 11px 22px 11px 27px;
+			img {
+				height: 18px;
+				padding-right: 8px;
+			}
+		}
 	}
 }
