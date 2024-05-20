@@ -41,13 +41,16 @@
 		display: none;
 	}
 }
-
+.header_mobile_menu_btn {
+	display: none;
+	@media (max-width: 720px) {
+		display: block;
+		padding-right: 3px;
+	}
+}
 @media (max-width: 720px) {
 	.header_logo {
 		width: 93px;
 		height: 26.35px;
-	}
-	.header_mobile_menu_btn {
-		padding-right: 3px;
 	}
 }

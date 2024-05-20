@@ -1,6 +1,10 @@
 .splide {
 	width: 279px;
 	height: 642px;
+	@media (max-width: 720px) {
+		width: 223px;
+		height: 504px;
+	}
 }
 .wrap_splide {
 	margin: 0 100px;
@@ -13,6 +17,12 @@
 	border-radius: 50%;
 	top: 80px;
 	left: -61px;
+	@media (max-width: 720px) {
+		width: 320px;
+		height: 320px;
+		top: 65px;
+		left: -49px;
+	}
 }
 .splide__pagination {
 	margin-top: 50px;
@@ -23,6 +33,11 @@
 			opacity: 0.3;
 			width: 12.77px;
 			height: 12.77px;
+			@media (max-width: 720px) {
+				width: 10.41px;
+				height: 10.41px;
+				margin-right: 0px;
+			}
 		}
 		button.is-active {
 			background: $light_green;

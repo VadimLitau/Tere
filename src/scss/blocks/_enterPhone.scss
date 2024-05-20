@@ -7,6 +7,13 @@
 	width: 100%;
 	margin-top: 85.35px;
 
+	@media (max-width: 720px) {
+		width: 320px;
+		flex-direction: column;
+		margin-top: 66px;
+		border-radius: 5px;
+	}
+
 	p {
 		width: 256px;
 		font-weight: 600;
@@ -15,6 +22,10 @@
 		margin: 0 112px 0 72px;
 		padding: 55px 0;
 		color: $white;
+		@media (max-width: 720px) {
+			margin: 22px 33px 25px 0px;
+			padding: 0;
+		}
 	}
 
 	input {
@@ -25,11 +36,36 @@
 		font-weight: 600;
 		font-size: 20px;
 		margin-right: 11px;
+		@media (max-width: 720px) {
+			width: 100%;
+			padding: 16px 14px 13px 35px;
+			font-size: 16px;
+			max-width: 280px;
+			margin-right: 0;
+			margin-bottom: 20px;
+			margin-left: -2px;
+		}
 	}
 
 	input::placeholder {
 		color: $opacity_grey;
 		font-weight: 600;
 		font-size: 20px;
+		@media (max-width: 720px) {
+			font-size: 16px;
+		}
+	}
+}
+
+@media (max-width: 720px) {
+	#apply_to_drive {
+		font-size: 17px;
+		width: 280px;
+		padding: 14px 0px;
+		margin-bottom: 30px;
+		margin-left: -4px;
+		img {
+			display: none;
+		}
 	}
 }

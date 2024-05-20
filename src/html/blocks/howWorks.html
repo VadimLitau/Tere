@@ -10,16 +10,25 @@
 			<span>
 				@@loop('modules/tereItem.html','../data/tereItemFirst.json')
 			</span>
-			<span>
+			<span class="mobile_enable">
+				@@loop('modules/tereItem.html','../data/tereItemSecond.json')
+			</span>
+			<span class="mobile_disable">
 				@@loop('modules/tereItem.html','../data/tereItemThird.json')
 			</span>
 		</div>
 		<div class="slider">@@include('modules/slider.html')</div>
+		<h2 id="benefitItems_title_slider">
+			TERE <span class="slider_span"> BENEFITS</span>
+		</h2>
 		<div class="right_items">
-			<span>
+			<span class="mobile_disable">
 				@@loop('modules/tereItem.html','../data/tereItemSecond.json')
 			</span>
 
+			<span class="mobile_enable">
+				@@loop('modules/tereItem.html','../data/tereItemThird.json')
+			</span>
 			<span>
 				@@loop('modules/tereItem.html','../data/tereItemFourth.json')
 			</span>

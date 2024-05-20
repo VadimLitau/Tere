@@ -2,14 +2,31 @@
 	width: 290px;
 	display: flex;
 	flex-direction: column;
+	@media (max-width: 720px) {
+		width: 320px;
+		margin-bottom: 45px;
+	}
+}
+.tere_item:nth-child(4) {
+	@media (max-width: 720px) {
+		margin-bottom: 0px;
+	}
 }
 .left {
 	align-items: start;
+	@media (max-width: 720px) {
+		align-items: center;
+		text-align: center;
+	}
 }
 .right {
 	align-items: end;
+	@media (max-width: 720px) {
+		align-items: center;
+	}
 	.tere_item_subtitle {
 		text-align: right;
+		text-align: center;
 	}
 }
 .number_wrap {
@@ -29,6 +46,9 @@
 		color: $light-green;
 		// костыль, у шрифта над цифрой появляется какой-то отступ
 		margin-top: -7px;
+	}
+	@media (max-width: 720px) {
+		margin-bottom: -4px;
 	}
 }
 
