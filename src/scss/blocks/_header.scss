@@ -28,7 +28,10 @@
 		display: none;
 	}
 }
-
+.list_item-link {
+	color: $black;
+	cursor: pointer;
+}
 .button_green {
 	color: $white;
 	background-color: $light_green;
