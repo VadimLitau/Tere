@@ -1,9 +1,9 @@
 .download {
 	@include flex_row;
-	margin-left: -65px;
+	// margin-left: -65px;
 	.download_wrap {
 		margin-top: 66px;
-		margin-right: 52px;
+		// margin-right: 52px;
 		h1 {
 			margin-top: 97px;
 			font-weight: 800;
@@ -45,8 +45,9 @@
 }
 .download_img {
 	margin-top: 53px;
+	margin-right: 65px;
 	@media (max-width: 720px) {
-		margin-top: 0px;
+		margin: 0px;
 		width: 320px;
 	}
 }

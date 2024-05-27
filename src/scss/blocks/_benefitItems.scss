@@ -1,7 +1,7 @@
 .benefitItems {
 	@include flex_column;
 	align-items: center;
-	margin: 0 0 277px 0;
+	margin: 78px 0 277px 0;
 	@media (max-width: 720px) {
 		// margin: 55px 0 17px 0;
 		margin: 55px 0 0 0;
